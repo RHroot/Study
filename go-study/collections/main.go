@@ -27,7 +27,7 @@ func main() {
 
 	fmt.Println("\nMap contents:")
 	for key, value := range person {
-		fmt.Println("%s: %s\n", key, value)
+		fmt.Printf("%s: %s\n", key, value)
 	}
 
 	if job, exists := person["job"]; exists {

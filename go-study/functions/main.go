@@ -6,6 +6,14 @@ func add(a int, b int) int {
 	return a + b
 }
 
+func sum(numbers ...int) int {
+	total := 0
+	for _, num := range numbers {
+		total += num
+	}
+	return total
+}
+
 func divide(a float64, b float64) (float64, error) {
 	if b == 0 {
 		return 0, fmt.Errorf("cannot divide by zero")

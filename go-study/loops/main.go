@@ -18,7 +18,7 @@ func main() {
 	fmt.Println("\nRange loop:")
 	numbers := []int{10, 20, 30, 40}
 	for index, value := range numbers {
-		fmt.Println("Index: %d, Value: %d\n", index, value)
+		fmt.Printf("Index: %d, Value: %d\n", index, value)
 	}
 
 	fmt.Println("\nInfinite loop:")

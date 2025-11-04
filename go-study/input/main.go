@@ -18,5 +18,5 @@ func main() {
 	ageStr, _ := reader.ReadString('\n')
 	ageStr = strings.TrimSpace(ageStr)
 
-	fmt.Println("Hello %s, you are %s years old!\n", name, ageStr)
+	fmt.Printf("Hello %s, you are %s years old!\n", name, ageStr)
 }
