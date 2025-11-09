@@ -1,6 +1,0 @@
-#!/usr/bin/env python
-
-name = input("Hello, Sir what's your name? ")
-print("Hello", name)
-mood = input("how are you doing today. ")
-print("I for one am doing good for once. ")
