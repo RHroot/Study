@@ -1,5 +1,5 @@
 def shit():
-  print("SHIT")
+    print("SHIT")
 
 
 def main():
